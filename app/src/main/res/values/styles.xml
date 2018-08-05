@@ -1,0 +1,26 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@android:color/transparent</item>
+        <item name="android:textColorPrimary">@android:color/white</item>
+        <item name="colorAccent">@color/colorAccent</item>
+        <item name="windowActionBarOverlay">true</item>
+        <item name="android:textColor">@android:color/white</item>
+        <item name="android:fontFamily">@font/chivo</item>
+    </style>
+
+    <style name="Sunny" parent="AppTheme">
+        <item name="colorPrimaryDark">@color/colorSunny</item>
+    </style>
+
+    <style name="Rainy" parent="AppTheme">
+        <item name="colorPrimaryDark">@color/colorRainy</item>
+    </style>
+
+    <style name="Cloudy" parent="AppTheme">
+        <item name="colorPrimaryDark">@color/colorCloudy</item>
+    </style>
+
+</resources>

@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name" />
+    <string name="str_max">max</string>
+    <string name="str_min">min</string>
+    <string name="str_current">Current</string>
+    <string name="degrees">%1$.0f°</string>
+    <string name="cloudy">cloudy</string>
+    <string name="sunny">sunny</string>
+    <string name="rainy">rainy</string>
+</resources>
