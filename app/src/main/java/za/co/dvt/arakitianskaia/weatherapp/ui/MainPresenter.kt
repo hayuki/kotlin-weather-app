@@ -50,7 +50,6 @@ class MainPresenter(val view: MainView) {
 
             var cal: Calendar = Calendar.getInstance()
             val format = SimpleDateFormat("EEEE", Locale.getDefault())
-            Log.d("DATE", format.format(Date(forecastVal.forecast[0].date * 1000L)))
             forecastVal.forecast.forEach { detail ->
 
                 val temp: Calendar = Calendar.getInstance()
